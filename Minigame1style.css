@@ -85,10 +85,6 @@ button {
   border-radius: 4px;
   margin: 1.5vw;
 }
-button:hover {
-  color: white;
-  background-color: black;
-}
 .mediumAnswers {
   display: inline-block;
 }
