@@ -83,6 +83,7 @@ button {
   display: inline-block;
   font-size: 16px;
   border-radius: 4px;
+  margin: 1.5vw;
 }
 button:hover {
   color: white;
@@ -120,3 +121,128 @@ button:hover {
   border-radius: 25px;
   padding: 5px;
 }
+/* @media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .MainTitle {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0195a8;
+    transition-duration: 0.5s;
+  }
+
+  .MainTitle h1 {
+    margin: 0;
+    color: white;
+    font-size: 28px;
+  }
+
+  .MainTitle p {
+    margin: 0;
+    color: white;
+  }
+  .MainTitle:hover {
+    color: white;
+    background-color: black;
+  }
+  footer {
+    margin-top: auto;
+    color: #ffffff;
+    background-color: #0195a8;
+    text-align: center;
+  }
+  .gameStarter {
+    font-size: larger;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+  }
+  .game {
+    font-size: larger;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+  }
+  #labelTimer {
+    background-color: white;
+    border-style: groove;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 25px;
+  }
+  .wordSelector {
+    background-color: white;
+    border-style: groove;
+    color: black;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 25px;
+    margin: 15px;
+  }
+  button {
+    font-size: 20px;
+    transition-duration: 0.5s;
+    background-color: #0195a8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 3vw auto;
+  }
+  button:hover {
+    color: white;
+    background-color: black;
+  }
+  .mediumAnswers {
+    display: inline-block;
+  }
+  .hardAnswers {
+    display: inline-block;
+  }
+  .score {
+    margin-top: 50px;
+    background-color: white;
+    border-style: groove;
+    padding: 25px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 35px;
+  }
+  .gameResults {
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+  }
+  .wrongChoices {
+    background-color: white;
+    border-style: groove;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px;
+  }
+} */
